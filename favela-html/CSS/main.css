@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+html,body{
+    height: 100%;
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+.logo{
+    width: 50%;
+}
+.menu{
+    width: 50%;
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family:verdana;
+    font-size: 20px;
+}
+
+sectio.sobre{
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 970px;
+    height: 970px;
+    border-radius: 50%;
+    background-color:#FFE4B5;
+}
+.texto-sobre h1{
+    font-size: 50px;
+}
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border:0;
+    background-color: #48a5ae;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+}
